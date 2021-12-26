@@ -1,5 +1,4 @@
 FROM python:3.11.0a3-alpine3.15
-MAINTAINER  "vikas Learn" 
 ENV PYTHONUNBUFFERED 1
 
 COPY ./requirements.txt /requirements.txt
